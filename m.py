@@ -94,7 +94,7 @@ sleep(0.1)
 user = '1234567890'
 
 while True:
-    us = str(''.join((random.choice(user) for i in range(1))))
+    us = str(''.join((random.choice(user) for i in range(10))))
     username = '+1'+num + us
     password = num + us
     from uuid import uuid4
